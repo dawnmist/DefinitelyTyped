@@ -14,6 +14,7 @@ declare namespace Nav {
         justified?: boolean;
         navbar?: boolean;
         pullRight?: boolean;
+        pullLeft?: boolean;
         right?: boolean;
         stacked?: boolean;
         ulClassName?: string;

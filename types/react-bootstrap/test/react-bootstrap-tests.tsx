@@ -730,6 +730,13 @@ export class ReactBootstrapTest extends Component {
                           <MenuItem divider />
                           <MenuItem eventKey='4'>Separated link</MenuItem>
                         </NavDropdown>
+                        <NavDropdown eventKey={4} title={<Glyphicon glyph="menu-hamburger" />} id='nav-dropdown-title-node'>
+                          <MenuItem eventKey='A'>Action</MenuItem>
+                          <MenuItem eventKey='B'>Another action</MenuItem>
+                          <MenuItem eventKey='C'>Something else here</MenuItem>
+                          <MenuItem divider />
+                          <MenuItem eventKey='D'>Separated link</MenuItem>
+                        </NavDropdown>
                       </Nav>
                       <Navbar.Text>
                           Signed in as: <Navbar.Link href="#">Mark Otto</Navbar.Link>

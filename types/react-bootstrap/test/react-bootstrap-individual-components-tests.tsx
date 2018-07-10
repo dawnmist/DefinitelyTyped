@@ -166,7 +166,7 @@ export class ReactBootstrapIndividualComponentsTest extends React.Component {
         <ModalHeader />
         <ModalTitle />
         <Nav />
-        <NavDropdown id="foo" />
+        <NavDropdown id="foo" title="bar" />
         <NavItem />
         <Navbar />
         <NavbarBrand />
